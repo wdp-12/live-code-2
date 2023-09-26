@@ -10,30 +10,41 @@
 <body>
 <div class="container">
     <table border="1" cellspacing="0">
+        <h2>Calculator</h2>
+        <form name="form">
+            <input class="textarea" name="textarea">
+        </form>
         <tr>
-            <td><button>7</button></td>
-            <td><button>8</button></td>
-            <td><button>9</button></td>
-            <td><button>*</button></td>
+            <td colspan="3"><button value="AC" onclick="clean()">AC</button></td>
+            <td><button value="/" onclick="insert(' / ')">/</button></td>
         </tr>
         <tr>
-            <td><button>4</button></td>
-            <td><button>5</button></td>
-            <td><button>6</button></td>
-            <td><button>-</button></td>
+            <td><button value="7" onclick="insert(7)">7</button></td>
+            <td><button value="8" onclick="insert(8)">8</button></td>
+            <td><button value="9" onclick="insert(9)">9</button></td>
+            <td><button value="x" onclick="insert(' * ')">*</button></td>
         </tr>
         <tr>
-            <td><button>1</button></td>
-            <td><button>2</button></td>
-            <td><button>3</button></td>
-            <td><button>+</button></td>
+            <td><button value="4" onclick="insert(4)">4</button></td>
+            <td><button value="5" onclick="insert(5)">5</button></td>
+            <td><button value="6" onclick="insert(6)">6</button></td>
+            <td><button value="-" onclick="insert(' - ')">-</button></td>
+        </tr>
+        <tr>
+            <td><button value="1" onclick="insert(1)">1</button></td>
+            <td><button value="2" onclick="insert(2)">2</button></td>
+            <td><button value="3" onclick="insert(3)">3</button></td>
+            <td><button value="+" onclick="insert(' + ')">+</button></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><button onclick="insert(0)">0</button></td>
+            <td><button onclick="">.</button></td>
+            <td><button onclick="">=</button></td>
         </tr>
 
     </table>
 </div>
- 
-<script>
-
-</script>
+<script src="main.js"></script>
 </body>
 </html>
