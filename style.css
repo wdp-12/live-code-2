@@ -1,11 +1,21 @@
+* body {
+   /* background: white; */
+   background-image: url('forest.jpg');
+   background-position: inherit;
+   background-size: cover;
+}
+
 .calculator {
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
     padding: 20px;
     background: url('nature.jpg');
-    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 .btn {
-    font-size: 24px;
+    font-size: 20px;
 }
