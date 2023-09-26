@@ -1,6 +1,8 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: rgb(8, 8, 8);
+  background: url(../live-code-2/sakura.jpg) no-repeat;
+  background-size: cover;
 }
 
 h1{
