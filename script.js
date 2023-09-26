@@ -10,8 +10,6 @@ function handleClick(number) {
     } else if (hasil == 'AC') {
         result.innerHTML = '0';
 
-    }   else if (hasil == 'DEL') {
-        result.innerHTML = slice(0, -1);
     } else {
         if (result.innerHTML == '0') {
             result.innerHTML = hasil;
