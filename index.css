@@ -1,0 +1,42 @@
+body{
+    background: #618264;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.card{
+    background-color: #D0E7D2;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display{
+    background-color: #FFF3DA;
+    height: 40%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.display input{
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    text-align: end;
+    font-size: 30px;
+    outline: none;
+}
+
+.button{
+    background: #545B77;
+    height: 50%;
+}
