@@ -9,7 +9,7 @@ body{
 .card{
     background-color: #D0E7D2;
     width: 300px;
-    height: 400px;
+    height: 600px;
     border-radius: 20px;
     display: flex;
     padding: 20px;
@@ -20,7 +20,7 @@ body{
 
 .display{
     background-color: #FFF3DA;
-    height: 40%;
+    height: 25%;
     width: 100%;
     border-radius: 20px;
     display: flex;
@@ -37,6 +37,41 @@ body{
 }
 
 .button{
-    background: #545B77;
-    height: 50%;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.tombol-kiri{
+    width: 65%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    justify-content: space-around;    
+    align-items: center;
+    padding: 10px;
+}
+
+.tombol{
+    background-color: #D0E7D2;
+    box-shadow: inset 4px 4px 9px #fff, 4px 4px 9px rgb(0,0,0,5);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: #545B77;
+}
+
+.tombol:hover{
+    transform: scale(0.9);
+}
+
+.tombol-kanan{
+    background-color: pink;
+    width: 35%;
+    height: 100%;
 }
