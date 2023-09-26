@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveCode-2 Kalkulator - Muhammad Dimas Erlangga</title>
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="result">
+            <div id="result" class="output">0</div>
+        </div>
+        <div class="buttons">
+            <button onclick="handleClick('(')" class="btn right">(</button>
+            <button onclick="handleClick(')')" class="btn left">)</button>
+            <button onclick="handleClear()" class="btn clear">C</button>
+            <button onclick="handleDelete()" class="btn delete">⌫</button> 
+            <button onclick="handleClick('+')" class="btn operator">+</button>
+            <button onclick="handleClick('7')" class="btn">7</button>
+            <button onclick="handleClick('8')" class="btn">8</button>
+            <button onclick="handleClick('9')" class="btn">9</button>
+            <button onclick="handleClick('-')" class="btn operator">-</button>
+            <button onclick="handleClick('4')" class="btn">4</button>
+            <button onclick="handleClick('5')" class="btn">5</button>
+            <button onclick="handleClick('6')" class="btn">6</button>
+            <button onclick="handleClick('*')" class="btn operator">*</button>
+            <button onclick="handleClick('1')" class="btn">1</button>
+            <button onclick="handleClick('2')" class="btn">2</button>
+            <button onclick="handleClick('3')" class="btn">3</button>
+            <button onclick="handleClick('/')" class="btn operator">/</button>
+            <button onclick="handleClick('.')" class="btn">.</button>
+            <button onclick="handleClick('0')" class="btn">0</button>
+            <button onclick="calculate()" class="btn equal">=</button>
+        </div>
+    </div>
+    <script src="kalkulator.js"></script>
+</body>
+</html>
