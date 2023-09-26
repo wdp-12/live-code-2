@@ -68,7 +68,8 @@ h1{
     width: 50px;
     border-radius: 100%;
     cursor: pointer;
-    color: tomato;
+    color: #000;
+    font-weight: 500;
 }
 
 .tombol:hover{
