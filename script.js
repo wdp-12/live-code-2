@@ -98,3 +98,12 @@ const zero = () => {
     document.querySelector("#display").value = document.querySelector("#display").value + "0";
   }
 };
+
+//,
+const comma = () => {
+  if (document.querySelector("#display").value == " ") {
+    document.querySelector("#display").value = ".";
+  } else {
+    document.querySelector("#display").value = document.querySelector("#display").value + ".";
+  }
+};
