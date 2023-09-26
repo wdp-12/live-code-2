@@ -1,0 +1,35 @@
+body{
+    background-color: #5c95ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+h1{
+    color: #000749;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: #f5eabc;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fCalc{
+    background-color: #ff3b3b;
+    height: 35%;
+}
+
+.button{
+    
+}
