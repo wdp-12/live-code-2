@@ -8,20 +8,45 @@ body {
   display: flex;
   justify-content: center;
   background-color: gray;
+  align-items: center;
   width: 100%;
   height: 100%;
 }
 
 .main {
   display: flex;
+  background-color: wheat;
+  width: 25rem;
+  height: 30rem;
   justify-content: center;
-  align-self: center;
+  align-items: center;
   text-align: center;
-  margin: 10rem auto;
+  margin: 5rem auto;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 20px;
 }
-.number button {
-  height: 90%;
-  width: 20%;
-  margin: 0, 5rem auto;
-  font-size: 20px;
+.display {
+  background-color: white;
+  height: 30%;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.display input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 90%;
+  text-align: end;
+  font-size: 4rem;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 100%;
 }
