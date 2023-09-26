@@ -17,14 +17,16 @@ body {
 }
 
 .result {
-    font-size: 36px; 
-    margin-bottom: 10px;
+    font-size: 36px;
     color: black;
-    font-family: 'Arial', sans-serif; 
+    font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    grid-column: span 4;
+    text-align: right; 
+    margin-bottom: 10px; 
 }
 
 .output {
@@ -34,7 +36,9 @@ body {
     border-radius: 5px;
     background-color: #f8f8f8;
     min-height: 60px;
-    font-family: 'Arial', sans-serif; 
+    font-family: 'Arial', sans-serif;
+    grid-column: span 4; 
+    text-align: right; 
 }
 
 .buttons {
@@ -47,7 +51,7 @@ body {
     font-size: 24px;
     padding: 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 50px; 
     cursor: pointer;
     background-color: #555;
     color: white;
@@ -56,11 +60,6 @@ body {
 
 .btn:hover {
     background-color: #777;
-}
-
-.btn:active {
-    background-color: #999;
-    transform: scale(0.98);
 }
 
 .operator {
@@ -79,34 +78,10 @@ body {
     background-color: #ffa826;
 }
 
-.clear {
+.clear, .delete, .right, .left {
     background-color: #9a9192;
 }
 
-.clear:hover {
-    background-color: #d6cccd;
-}
-
-.delete {
-    background-color: #9a9192;
-}
-
-.delete:hover {
-    background-color: #d6cccd;
-}
-
-.right {
-    background-color: #9a9192;
-}
-
-.right:hover {
-    background-color: #d6cccd;
-}
-
-.left {
-    background-color: #9a9192;
-}
-
-.left:hover {
+.clear:hover, .delete:hover, .right:hover, .left:hover {
     background-color: #d6cccd;
 }
