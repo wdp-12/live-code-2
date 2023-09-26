@@ -54,12 +54,7 @@
 
   }
 
-  #display::-webkit-scrollbar {
-    display: block;
-    height: 3px;
-}
-
-  button:hover {
+button:hover {
     transform: scale(1.1);
 }
 
