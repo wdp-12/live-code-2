@@ -23,25 +23,25 @@
             <input type="button" class="btn btn-primary del ms-4" value="DEL" onclick="deleteNum()" />
             <input type="button" class="btn btn-primary ms-4" value="÷" onclick="document.calc.display.value+='÷'" />
             <br /><br />
-            <input type="button" class="btn btn-primary" value="7" onclick="document.calc.display.value+='7'" />
-            <input type="button" class="btn btn-primary ms-4" value="8" />
-            <input type="button" class="btn btn-primary ms-4" value="9" />
-            <input type="button" class="btn btn-primary ms-4" value="X" />
+            <input type="button" class="btn btn-primary" value="7" onclick="seven()" />
+            <input type="button" class="btn btn-primary ms-4" value="8" onclick="eight()" />
+            <input type="button" class="btn btn-primary ms-4" value="9" onclick="nine()" />
+            <input type="button" class="btn btn-primary ms-4" value="X" onclick="document.calc.display.value+='x'" />
             <br /><br />
-            <input type="button" class="btn btn-primary" value="6" />
-            <input type="button" class="btn btn-primary ms-4" value="5" />
-            <input type="button" class="btn btn-primary ms-4" value="4" />
-            <input type="button" class="btn btn-primary ms-4" value="-" />
+            <input type="button" class="btn btn-primary" value="6" onclick="six()" />
+            <input type="button" class="btn btn-primary ms-4" value="5" onclick="five()" />
+            <input type="button" class="btn btn-primary ms-4" value="4" onclick="four()" />
+            <input type="button" class="btn btn-primary ms-4" value="-" onclick="document.calc.display.value+='-'" />
             <br /><br />
-            <input type="button" class="btn btn-primary" value="3" />
-            <input type="button" class="btn btn-primary ms-4" value="2" />
-            <input type="button" class="btn btn-primary ms-4" value="1" />
-            <input type="button" class="btn btn-primary ms-4" value="+" />
+            <input type="button" class="btn btn-primary" value="3" onclick="three()" />
+            <input type="button" class="btn btn-primary ms-4" value="2" onclick="two()" />
+            <input type="button" class="btn btn-primary ms-4" value="1" onclick="one()" />
+            <input type="button" class="btn btn-primary ms-4" value="+" onclick="document.calc.display.value+='+'" />
             <br /><br />
-            <input type="button" class="btn btn-primary" value="%" />
-            <input type="button" class="btn btn-primary ms-4" value="0" />
-            <input type="button" class="btn btn-primary ms-4" value="." />
-            <input type="button" class="btn btn-primary ms-4" value="=" />
+            <input type="button" class="btn btn-primary" value="%" onclick="document.calculator.display.value+='%'" />
+            <input type="button" class="btn btn-primary ms-4" value="0" onclick="zero()" />
+            <input type="button" class="btn btn-primary ms-4" value="." onclick="comma()" />
+            <input type="button" class="btn btn-primary ms-4" value="=" onclick="document.calc.display.value = eval(calculator.display.value)" />
           </form>
         </div>
       </div>
