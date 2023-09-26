@@ -8,13 +8,27 @@
 </head>
 <body>
     <div class="container">
-        <h1>Calculator</h1>
         <div class="card">
             <form class="fCalc">
                 <input placeholder="0">
             </form>
             <section class="button">
-                
+                <div class="tombol-kiri">
+                    <button class="tombol">AC</button>
+                    <button class="tombol">del</button>
+                    <button class="tombol">%</button>
+                    <button class="tombol">del</button>
+                    <script>
+                        for(let i = 1; i <= 9; i++){
+                            document.write(
+                                '<button class=tombol>'+i+'</button>'
+                            )
+                        }
+                    </script>
+                </div>
+                <div class="tombol-kanan">
+                    kanan
+                </div>
             </section>
         </div>
     </div>
