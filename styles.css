@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.calculator-body {
+  background-color: aquamarine;
+  color: #ffffff;
+  height: auto;
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+}
+
+.btn {
+  height: auto;
+  width: 60px;
+}
+
+.del {
+  height: auto;
+  width: 145px;
+}
