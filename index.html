@@ -21,12 +21,12 @@
             <input type="text" class="form-control mb-3 display" name="display" id="display" />
             <input type="button" class="btn btn-primary" value="C" id="clear" />
             <input type="button" class="btn btn-primary del ms-4" value="DEL" onclick="deleteNum()" />
-            <input type="button" class="btn btn-primary ms-4" value="÷" onclick="document.calc.display.value+='÷'" />
+            <input type="button" class="btn btn-primary ms-4" value="/" onclick="document.calc.display.value+='/'" />
             <br /><br />
             <input type="button" class="btn btn-primary" value="7" onclick="seven()" />
             <input type="button" class="btn btn-primary ms-4" value="8" onclick="eight()" />
             <input type="button" class="btn btn-primary ms-4" value="9" onclick="nine()" />
-            <input type="button" class="btn btn-primary ms-4" value="X" onclick="document.calc.display.value+='x'" />
+            <input type="button" class="btn btn-primary ms-4" value="*" onclick="document.calc.display.value+='*'" />
             <br /><br />
             <input type="button" class="btn btn-primary" value="6" onclick="six()" />
             <input type="button" class="btn btn-primary ms-4" value="5" onclick="five()" />
@@ -38,7 +38,7 @@
             <input type="button" class="btn btn-primary ms-4" value="1" onclick="one()" />
             <input type="button" class="btn btn-primary ms-4" value="+" onclick="document.calc.display.value+='+'" />
             <br /><br />
-            <input type="button" class="btn btn-primary ms-4" value="." onclick="comma()" />
+            <input type="button" class="btn btn-primary" value="." onclick="comma()" />
             <input type="button" class="btn btn-primary ms-4 zero" value="0" onclick="zero()" />
             <input type="button" class="btn btn-primary ms-4" value="=" onclick="document.calc.display.value = eval(calc.display.value)" />
           </form>
