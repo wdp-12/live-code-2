@@ -9,38 +9,40 @@
   </head>
   <body>
 
-    <div class="container calculator card justify-content-center mx-auto border border-0 text-center">
+    <div class="calculator card justify-content-center mx-auto text-center">
         <h1 class="">Kalkulator</h1>
         <div class="row">
-            <input type="text" class="input-screen border-0 form-control-lg col-9 text-end">
+            <input type="text" class="input-screen border-0 form-control-lg text-end" value="">
+        </div> 
+        <div class="calculator-keys">
+        <div class="row">
+            <button type="button" class="number btn btn-light col" value="7">7</button>
+            <button type="button" class="number btn btn-light col" value="8">8</button>
+            <button type="button" class="number btn btn-light col" value="9">9</button>
+            <button type="button" class="operator btn btn-light col" value="+">+</button>
+        </div> 
+        <div class="row">
+            <button type="button" class="number btn btn-light col" value="4">4</button>
+            <button type="button" class="number btn btn-light col" value="5">5</button>
+            <button type="button" class="number btn btn-light col" value="6">6</button>
+            <button type="button" class="operator btn btn-light col" value="-">-</button>
+        </div> 
+        <div class="row">
+            <button type="button" class="number btn btn-light col" value="1">1</button>
+            <button type="button" class="number btn btn-light col" value="2">2</button>
+            <button type="button" class="number btn btn-light col" value="3">3</button>
+            <button type="button" class="operator btn btn-light col" value="*">&times;</button>
+        </div>
+        <div class="row">
+            <button type="button" class="number btn btn-light col" value=".">.</button>
+            <button type="button" class="number btn btn-light col-6" value="1">0</button>
+            <button type="button" class="operator btn btn-light col" value="/">&divide;</button>
+        </div>
+        <div class="row">
+            <button type="button" class="equal-sign operator btn btn-light col-9" value="=">=</button>
             <button type="button" class="all-clear btn btn-danger col">AC</button>
-        </div> 
-        <div class="row">
-            <button type="button" class="btn btn-light col" value="7">7</button>
-            <button type="button" class="btn btn-light col" value="8">8</button>
-            <button type="button" class="btn btn-light col" value="9">9</button>
-            <button type="button" class="btn btn-light col" value="+">+</button>
-        </div> 
-        <div class="row">
-            <button type="button" class="btn btn-light col" value="4">4</button>
-            <button type="button" class="btn btn-light col" value="5">5</button>
-            <button type="button" class="btn btn-light col" value="6">6</button>
-            <button type="button" class="btn btn-light col" value="-">-</button>
-        </div> 
-        <div class="row">
-            <button type="button" class="btn btn-light col" value="1">1</button>
-            <button type="button" class="btn btn-light col" value="2">2</button>
-            <button type="button" class="btn btn-light col" value="3">3</button>
-            <button type="button" class="btn btn-light col" value="*">&times;</button>
-        </div>
-        <div class="row">
-            <button type="button" class="decimal btn btn-light col" value=".">.</button>
-            <button type="button" class="btn btn-light col-6" value="1">0</button>
-            <button type="button" class="btn btn-light col" value="/">&divide;</button>
-        </div>
-        <div class="row">
-            <button type="button" class="equal-sign operator btn btn-light col" value="=">=</button>
         </div>  
+    </div>
     </div>
     
     <script src="src/script.js"></script>
