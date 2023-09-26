@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="main">
-      <form class="display">
+      <form class="display" id="result">
         <input type="text" placeholder="0" />
       </form>
-      <section>
-        <div></div>
+      <section class="tombol">
         <div class="number">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>0</button>
+          <button onclick="handleClear()">C</button>
+          <button onclick="handleOperat('%')">%</button>
+          <button onclick="handleclick(1)">1</button>
+          <button onclick="handleclick(2)">2</button>
+          <button onclick="handleclick(3)">3</button>
+          <button onclick="handleclick(4)">4</button>
+          <button onclick="handleclick(5)">5</button>
+          <button onclick="handleclick(6)">6</button>
+          <button onclick="handleclick(7)">7</button>
+          <button onclick="handleclick(8)">8</button>
+          <button onclick="handleclick(9)">9</button>
+          <button onclick="handleclick(0)">0</button>
         </div>
         <div class="operator">
-          <button>+</button>
-          <button>-</button>
-          <button>%</button>
-          <button>=</button>
-          <button>*</button>
-          <button>C</button>
+          <button onclick="handleOperat('+')">+</button>
+          <button onclick="handleOperat('-')">-</button>
+          <button onclick="handleOperat('*')">*</button>
+          <button onclick="handleOperat('/')">/</button>
+          <button onclick="handleOperat()">=</button>
         </div>
       </section>
     </div>

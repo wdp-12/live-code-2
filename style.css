@@ -16,7 +16,7 @@ body {
 .main {
   display: flex;
   background-color: wheat;
-  width: 25rem;
+  width: 20rem;
   height: 30rem;
   justify-content: center;
   align-items: center;
@@ -43,10 +43,39 @@ body {
   text-align: end;
   font-size: 4rem;
 }
-.number {
+.tombol {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 70%;
   width: 100%;
+}
+.number {
+  width: 65%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.number button {
+  border: none;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.operator button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 55%;
+  height: 100%;
+  margin: 1.5rem;
+  border-radius: 100%;
+  padding: 10px;
+  border: none;
 }
