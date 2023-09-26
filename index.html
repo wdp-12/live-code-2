@@ -12,17 +12,20 @@
 <body>
     <div class="container">
         <div class="box-calculator">
-            <div class="box"></div>
+            <form name="searchbox">
+                <input class="box" name="text" placeholder="0" style="overflow: scroll;" disabled>
+            </form>
+
             <div class="row">
                 <button class="box-button-a"><p>C</p></button>
                 <button class="box-button"><p>$</p></button>
                 <button class="box-button"><p>%</p></button>
-                <button class="box-button"><p>+</p></button>
+                <button class="box-button" onclick="insert('+')"><p>+</p></button>
             </div>
             <div class="row">
-                <button class="box-button"><p>7</p></button>
-                <button class="box-button"><p>8</p></button>
-                <button class="box-button"><p>9</p></button>
+                <button class="box-button" onclick="insert(7)"><p>7</p></button>
+                <button class="box-button" onclick="insert(8)"><p>8</p></button>
+                <button class="box-button" onclick="insert(9)"><p>9</p></button>
                 <button class="box-button"><p>-</p></button>
             </div>
             <div class="row">
