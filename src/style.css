@@ -5,3 +5,13 @@
     padding: 30px;
     background-color:#dfdddd;
 }
+
+.row {
+    margin: 3px;
+    padding: 6px;
+}
+
+.btn {
+  margin: 3px;
+  font-size: xx-large;
+}
