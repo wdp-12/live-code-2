@@ -28,15 +28,15 @@ body {
     margin: auto;
     flex-wrap: wrap;
 	flex-direction: row;
-    min-width: 30rem;
-    min-height: 30rem;
 	justify-content: space-between;
-	border: 1px solid #5649ff;
-	border-radius: 11px;
-	padding-top: 1rem;
+	border-top: 5px solid #8985c4;
+    border-radius: 15px 15px 40px 40px;
+    color: aliceblue;
+    background: #5649ff;
+	padding: 1rem;
 }
 
-#input .number {
+#input button {
     flex-grow: 1;
     background: #30CFD0;
 	color: rgb(0, 29, 36);
@@ -51,17 +51,38 @@ body {
 	border-radius: 4px;
 }
 
+#input {
+    width: 550px;
+}
+
+#operator {
+    width: 120px;
+}
+
 #operator .operator {
     flex-grow: 2;
     background: #30CFD0;
-	color: rgb(0, 29, 36);
+	color: rgb(36, 0, 21);
 	font-size: 24px;
 	font-weight: bold;
-    margin: .6rem .6rem .6rem 0;
+    margin: .6rem;
     padding: .5rem;
 	cursor: pointer;
     width: 50%;
     height: 4rem;
 	border: none;
 	border-radius: 4px;
+}
+
+#result {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    min-width: 30rem;
+    min-height: 2.4rem;
+	border-top: 5px solid #8985c4;
+    border-radius: 15px 15px 0 0;
+    color: aliceblue;
+    background: #5649ff;
+    font-size: 30px;
 }
